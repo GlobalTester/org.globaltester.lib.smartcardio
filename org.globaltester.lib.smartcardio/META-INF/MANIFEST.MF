@@ -5,5 +5,7 @@ Bundle-SymbolicName: org.globaltester.lib.smartcardio
 Bundle-Vendor: secunet Security Networks AG
 Bundle-Version: 3.3.1.qualifier
 Export-Package: org.globaltester.lib.smartcardio
-Require-Bundle: com.sun.jna
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: .,
+ lib/jna-platform.jar,
+ lib/jna.jar
