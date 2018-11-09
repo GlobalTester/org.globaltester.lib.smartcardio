@@ -8,7 +8,7 @@
     <relativePath>../../org.globaltester.parent/org.globaltester.parent/</relativePath>
   </parent>
   <groupId>org.globaltester</groupId>
-  <artifactId>org.globaltester.lib.jna</artifactId>
+  <artifactId>org.globaltester.lib.smartcardio</artifactId>
   <version>3.3.1-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
 </project>
