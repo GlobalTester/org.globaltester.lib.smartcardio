@@ -126,7 +126,7 @@ public class Smartcardio extends Provider {
 		 * returning a list that is possibly inconsistent with the internal
 		 * waitForChange state.
 		 */
-		@Override public List<CardTerminal> list(State state) throws CardException {
+		@Override public List<CardTerminal> list(State state) throws CardException { //NOSONAR imported code
 			if (null == state)
 				throw new NullPointerException("State must be non-null. To get all terminals, call list() or list(State.ALL).");
 			if (state == State.CARD_REMOVAL || state == State.CARD_INSERTION) {
@@ -374,7 +374,7 @@ public class Smartcardio extends Provider {
 			}
 			check("SCardReleaseContext", libInfo.lib.SCardReleaseContext(scardContext));
 		}
-		@Override public void finalize() throws JnaPCSCException {
+		@Override public void finalize() throws JnaPCSCException { //NOSONAR imported code
 			close();
 		}
 	}
