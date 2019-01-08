@@ -8,3 +8,4 @@ Export-Package: org.globaltester.lib.smartcardio
 Bundle-ClassPath: .,
  lib/jna-platform.jar,
  lib/jna.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
