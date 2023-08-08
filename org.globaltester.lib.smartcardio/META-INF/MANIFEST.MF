@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: GT Lib JNA Smartcardio
 Bundle-SymbolicName: org.globaltester.lib.smartcardio
 Bundle-Vendor: secunet Security Networks AG
-Bundle-Version: 3.8.4.qualifier
+Bundle-Version: 3.9.0.qualifier
 Export-Package: org.globaltester.lib.smartcardio
 Bundle-ClassPath: .,
  lib/jna-platform.jar,
